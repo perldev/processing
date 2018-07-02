@@ -266,7 +266,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
 #        setup_logging()
 
-        worker = TornadoServer.create_instance(8090, application_urls, False)
+        worker = TornadoServer.create_instance(settings.PORT_WORKER, application_urls, False)
         worker.start()
 
 
