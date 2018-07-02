@@ -1,0 +1,5 @@
+SUBSCRIBE_HOST = "127.0.0.1"
+SUBSCRIBE_PORT = "25"
+SUBSCRIBE_USER = "robot@btc-trade.com.ua"
+SUBSCRIBE_PWD = None 
+SUBSCRIBE_TLS = False
