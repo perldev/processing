@@ -1,0 +1,13 @@
+crypton/settings.py
+sdk/crypto_settings.py
+.svn
+.idea
+.idea/workspace.xml
+.pyc
+*pyc
+*py~
+*~
+*log
+*orig
+*swp
+uwsgi.ini
